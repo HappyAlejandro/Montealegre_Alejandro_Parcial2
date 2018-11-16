@@ -15,4 +15,12 @@ app.get('/paginaA',function(request,response){
     response.render('paginaA');
 });
 
+app.get('/paginaB',function(request,response){
+    response.render('paginaB');
+});
+
+app.get('/paginaC',function(request,response){
+    response.render('paginaC');
+});
+
 app.listen(5650);
